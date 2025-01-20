@@ -1,0 +1,13 @@
+Should
+- Depending on the situation, may need authentication
+- Add End to end testing
+
+Could
+- Store inputted data and reuse it computing subsequent zscores. This expands our
+data set
+- Move the Constants.OUTLIER_THRESHOLD to be either an environment variable or 
+an input from the user, since we may want to vary it 
+
+Nice to have
+- Present a front end UI with graphical dashboards to point our outlying data
+- A response with suggestions to fix the errors, "Did you mean..." 
